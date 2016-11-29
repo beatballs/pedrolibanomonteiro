@@ -286,7 +286,7 @@ div.bl-panel-items > div > div {
   height:35px;
   font-size:14px !important;
   line-height:40px;
-  background: #FFD700 !important;   
+  background: #ffcc5c !important;   
   border:0px;
   -webkit-box-shadow:rgba(0, 0, 0, 0) 0 0 0 inset;
   text-shadow: none !important;
@@ -300,7 +300,7 @@ div.bl-panel-items > div > div {
 
 .about-us h3{
   font-size:16px;
-  color:#FFD700;
+  color:#ffcc5c;
   padding-bottom:10px;
 }
 
