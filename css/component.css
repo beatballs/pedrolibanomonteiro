@@ -650,3 +650,159 @@ section.bl-expand .bl-icon-close {
 	}
 	
 }
+
+
+
+.read-more-state {
+  display: none;
+}
+
+.read-more-target {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: .25s ease;
+}
+
+.read-more-state:checked ~ .read-more-wrap .read-more-target {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+}
+
+.read-more-state ~ .read-more-trigger:before {
+  content: 'read more.';
+}
+
+.read-more-state:checked ~ .read-more-trigger:before {
+  content: 'read less.';
+}
+
+.read-more-trigger {
+  cursor: pointer;
+ 
+   color:  rgba(0,0,0,0.2);
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 0 px;
+    
+    font-size: 150%;
+  
+}
+
+.read-less-trigger {
+  cursor: pointer;
+ 
+   color:  rgba(0,0,0,0.2);
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 0 px;
+    
+    font-size: 150%;
+  
+}
+
+.read-more-state {
+  display: none;
+}
+
+.read-more-target {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: .25s ease;
+}
+
+.read-more-state:checked ~ .read-more-wrap .read-more-target {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+}
+
+.read-more-state ~ .read-more-trigger:before {
+  content: 'read more.';
+}
+
+.read-more-state:checked ~ .read-more-trigger:before {
+  content: 'read less.';
+}
+
+.read-more-trigger {
+  cursor: pointer;
+ 
+   color:  rgba(0,0,0,0.2);
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 0 px;
+    
+    font-size: 150%;
+  
+}
+
+.read-less-trigger {
+  cursor: pointer;
+ 
+   color:  rgba(0,0,0,0.2);
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 0 px;
+    
+    font-size: 150%;
+  
+}
+
+.read-more-state {
+  display: none;
+}
+
+.read-more-target {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: .25s ease;
+}
+
+.read-more-state:checked ~ .read-more-wrap .read-more-target {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+}
+
+.read-more-state ~ .read-more-trigger:before {
+  content: 'read more.';
+}
+
+.read-more-state:checked ~ .read-more-trigger:before {
+  content: 'read less.';
+}
+
+.read-more-trigger {
+  cursor: pointer;
+ 
+   color:  rgba(0,0,0,0.2);
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 0 px;
+    
+    font-size: 150%;
+  
+}
+
+.read-less-trigger {
+  cursor: pointer;
+ 
+   color:  rgba(0,0,0,0.2);
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 0 px;
+    
+    font-size: 150%;
+  
+}
+
